@@ -1,0 +1,1 @@
+ALTER TABLE "fii_metric" ADD COLUMN "last_dividend_cents" bigint;
