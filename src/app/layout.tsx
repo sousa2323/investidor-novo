@@ -35,6 +35,13 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          defer
+          src="http://127.0.0.1:8787/tracker/v1.js"
+          data-site="65c3fae7-0afd-4937-bf1b-321cd814932d"
+        />
+      </head>
       <body className="min-h-full">
         <TooltipProvider>
           {children}
